@@ -1,5 +1,3 @@
-using System;
-
 class EmployeeData
 {
     static void Main()
@@ -8,7 +6,7 @@ class EmployeeData
         string lastName = Console.ReadLine();
         ushort age = Convert.ToUInt16(Console.ReadLine());
         string gender = Console.ReadLine();
-        ulong idNum = Convert.ToUInt64(Console.ReadLine());
+        uint idNum = Convert.ToUInt32(Console.ReadLine());
         ulong empNum = Convert.ToUInt64(Console.ReadLine());
         Console.WriteLine("Name: " + firstName);
         Console.WriteLine("Last Name: " + lastName);
