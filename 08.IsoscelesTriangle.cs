@@ -1,9 +1,11 @@
 using System;
+using System.Text;
 
 class IsoscelesTriangle
 {
     static void Main()
     {
+        Console.OutputEncoding = Encoding.UTF8;
         int n = 4;
         int spaBef = n-1;
         int spaMid = 1;
@@ -27,3 +29,4 @@ class IsoscelesTriangle
         Console.WriteLine();
     }
 }
+
